@@ -2,6 +2,13 @@
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.24.
 
+## Start server and app
+
+```
+yarn
+npm run build
+```
+
 ## Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
@@ -29,3 +36,7 @@ Run `ng github-pages:deploy` to deploy to Github Pages.
 ## Further help
 
 To get more help on the `angular-cli` use `ng help` or go check out the [Angular-CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Docker mongo image:
+
+`docker run --name mongo-mean -e MONGODB_USER=mean -e MONGODB_PASS=mean -e MONGODB_DATABASE=mean -p 27010:27017 -d mongo:latest`
