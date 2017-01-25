@@ -8,6 +8,7 @@ import { AppComponent } from './app.component';
 import { PostsComponent } from './posts/posts.component';
 import { PostsService } from './posts.service';
 import { PostComponent } from './post/post.component';
+import { InputFieldComponent } from './input-field/input-field.component';
 
 const ROUTES = [
   {
@@ -25,7 +26,8 @@ const ROUTES = [
   declarations: [
     AppComponent,
     PostsComponent,
-    PostComponent
+    PostComponent,
+    InputFieldComponent
   ],
   imports: [
     BrowserModule,
